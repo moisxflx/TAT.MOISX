@@ -1,0 +1,140 @@
+body {
+    background-color: #121113;
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    background-color: #121113;
+    padding: 10px;
+}
+
+.navbar {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 100px; /* Espaciado entre elementos */
+    position: fixed;
+    right: 20px; /* Margen a la derecha */
+    padding-top: 40px; /* Alinea verticalmente */
+    z-index: 2;
+    
+}
+
+
+nav li {margin-top: 0vw;
+
+    font-size: 1.5vw;
+    font-family: 'Cormorant', serif;
+    opacity: 100%;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+    justify-content: space-between;
+}
+
+nav a:hover {
+    color: #9d0208;
+}
+
+.login {
+    background-color: #b5c4a3;
+    font-family: 'Cormorant', serif;
+    border-radius: 1rem;
+    padding: 9px;
+    position: relative;
+}
+
+
+.logomoisx:hover  {
+    transition:  0.8s;
+    
+    background-size: contain;
+
+    color: #ffffff;
+    font-family: 'Cormorant', serif;
+    font-style: bold;
+   
+
+}
+nav .login:hover {
+    transition:  0.8s;
+    background-color:#f7f7f2;
+    background-size: contain;
+    color: #121113;
+    font-family: 'Cormorant', serif;
+    font-style: bold;
+   
+
+}
+
+.login-container {
+    background-color: #b5c4a3;
+    font-family: 'Bebas Neue', sans-serif;
+    border-radius: 1rem;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-container h1 {
+    color: #4d0e10;
+    font-style: bold;
+    font-size: 2vw;
+    margin-bottom: 20px;
+     
+    font-family: 'Cormorant', serif;
+    font-family: 'Tilt Prism';
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 6px solid #ccc;
+
+    border-radius: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    
+    background-color: #ff0008;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+button:hover {
+    background-color: #007bff;
+}
+
+/* ... (resto del código) */

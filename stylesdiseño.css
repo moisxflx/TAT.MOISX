@@ -1,0 +1,178 @@
+body {
+    background-color: #121113;
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    background-color: #121113;
+    padding: 10px;
+}
+
+.navbar {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 100px; /* Espaciado entre elementos */
+    position: fixed;
+    right: 20px; /* Margen a la derecha */
+    padding-top: 40px; /* Alinea verticalmente */
+    z-index: 2;
+    
+}
+
+
+nav li {margin-top: 0vw;
+
+    font-size: 1.5vw;
+    font-family: 'Cormorant', serif;
+    opacity: 100%;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+    justify-content: space-between;
+}
+
+nav a:hover {
+    color: #9d0208;
+}
+
+.login {
+    background-color: #b5c4a3;
+    font-family: 'Cormorant', serif;
+    border-radius: 1rem;
+    padding: 9px;
+    position: relative;
+}
+
+
+.logomoisx:hover  {
+    transition:  0.8s;
+    
+    background-size: contain;
+
+    color: #ffffff;
+    font-family: 'Cormorant', serif;
+    font-style: bold;
+   
+
+}
+nav .login:hover {
+    transition:  0.8s;
+    background-color:#f7f7f2;
+    background-size: contain;
+    color: #121113;
+    font-family: 'Cormorant', serif;
+    font-style: bold;
+   
+
+}
+.imagenes {
+    
+    justify-content: center;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+  
+}
+.ima {display: inline;
+ 
+    margin: 0px;
+    width: 20vw;
+    height: 20vw;
+    padding: 1vw;
+    overflow: hidden;
+}
+img {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 40px;
+    
+}
+.imagenes a:hover {
+    opacity: 50%;
+
+    transition: 0.3ms;
+    fill: #121113;
+}
+h2 {
+    border: solid wheat;
+    border-radius: 20px;
+    margin-top: 0px;
+    font-size: 4vw;
+    padding: 40px;
+    background-color: #4d0e10;
+    color:white;
+    font-family: 'Cormorant', serif;
+    display: flex;
+    justify-content: center;
+}
+   
+
+.patro {display: inline;
+    align-content: center;
+        align-self: center;
+        
+       justify-content: space-between;
+    align-items: center;
+        width: 6vw;
+        height: auto;
+    
+        padding: 4px;
+       
+        
+    
+    }
+    .patroci {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkbox {display: flex;
+    padding:20px ;
+    margin-top: 0px;
+    margin: 70px;
+    margin-right: 4px;
+}
+    #footer{
+    background-color: #4d0e10;
+            display: flex;
+            flex-direction: row;/* Utilizamos flexbox para alinear y centrar */
+            justify-content: center; /* Alinea horizontalmente en el centro */
+            align-items: center; /* Centra verticalmente */
+            /* Opcional: ajusta la altura del contenedor */
+          }
+    
+    .copy {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 6px;
+        color:wheat;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: bold;
+        margin-bottom: 2px;
+    }
